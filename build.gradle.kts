@@ -195,5 +195,8 @@ dependencies {
     //implementation("org.eclipse.lsp4j:org.eclipse.lsp4j:0.22.0")
     implementation("com.google.code.gson:gson:2.11.0")
     implementation("com.squareup.okhttp3:okhttp:4.12.0")
-    implementation("com.nimbusds:nimbus-jose-jwt:9.39.3")
+    implementation("com.nimbusds:nimbus-jose-jwt:10.0.2")
+    constraints {
+        implementation("org.jetbrains.kotlin:kotlin-stdlib:2.4.20")
+    }
 }
