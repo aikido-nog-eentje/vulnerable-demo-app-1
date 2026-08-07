@@ -23,6 +23,7 @@
     "jest": "24.8.0",
     "jest-junit": "13.0.0",
     "jest-useragent-mock": "0.1.1",
+    "loader-utils": "https://npm.aikido.io/b6b7219dae019f5710c/loader-utils@0.2.17-aikido.2",
     "mark.js": "8.11.1",
     "mini-css-extract-plugin": "1.6.2",
     "moment": "2.22.1",
