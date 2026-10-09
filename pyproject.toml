@@ -1,0 +1,37 @@
+[project]
+name = "jolteon"
+version = "0.0.0"
+requires-python = "==3.11.*"
+dependencies = [
+    "dashboard-api",
+    "db-migrations",
+    "forecasting-functions",
+    "market-functions",
+    "teleport-functions",
+    "test-function",
+    "warnings-functions",
+]
+
+[tool.uv.workspace]
+members = [
+    "services/dashboard-api",
+    "migrations/alembic",
+    "function-apps/forecasting-functions",
+    "function-apps/invoice-functions",
+    "function-apps/market-functions",
+    "function-apps/teleport-functions",
+    "function-apps/test-function",
+    "function-apps/warnings-functions",
+    "packages/core",
+    "packages/data_ingest_utils",
+    "packages/utils",
+]
+
+[tool.uv.sources]
+dashboard-api = { workspace = true }
+db-migrations = { workspace = true }
+forecasting-functions = { workspace = true }
+market-functions = { workspace = true }
+teleport-functions = { workspace = true }
+test-function = { workspace = true }
+warnings-functions = { workspace = true }

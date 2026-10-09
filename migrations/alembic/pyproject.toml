@@ -1,0 +1,12 @@
+[project]
+name = "db-migrations"
+version = "0.0.0"
+requires-python = "==3.11.*"
+dependencies = [
+    "alembic>=1.13.2",
+    "core",
+    "sqlalchemy>=2.0.34",
+]
+
+[tool.uv.sources]
+core = { workspace = true }
